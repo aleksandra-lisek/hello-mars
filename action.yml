@@ -1,0 +1,16 @@
+name: Hello From Mars
+description: Greet someone from Mars
+
+inputs:
+  name: # id of input
+    description: Who to greet
+    required: true
+    default: Zaza
+
+outputs:
+  greeting: # id of output
+    description: How we are greeting you
+
+runs:
+  using: node20
+  main: dist/index.js
