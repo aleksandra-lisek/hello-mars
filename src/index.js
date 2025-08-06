@@ -1,5 +1,4 @@
-import * as core from "@actions/core";
-import * as github from "@actions/github";
+const core = require('@actions/core');
 
 try {
   const name = core.getInput('name');
