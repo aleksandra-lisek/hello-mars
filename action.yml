@@ -12,5 +12,5 @@ outputs:
     description: How we are greeting you
 
 runs:
-  using: node20
-  main: dist/index.js
+  using: 'node20'
+  main: 'dist/index.js'
