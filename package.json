@@ -1,6 +1,29 @@
 {
+  "name": "hello-mars",
+  "version": "1.0.0",
+  "description": "## Example usage",
+  "main": "index.js",
+  "type": "module",
   "dependencies": {
     "@actions/core": "^1.11.1",
-    "@actions/github": "^6.0.1"
+    "@actions/github": "^6.0.1",
+    "before-after-hook": "^2.2.3",
+    "deprecation": "^2.3.1",
+    "once": "^1.4.0",
+    "tunnel": "^0.0.6",
+    "undici": "^5.29.0",
+    "universal-user-agent": "^6.0.1",
+    "wrappy": "^1.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.6",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "rollup": "^4.46.2"
   }
 }
